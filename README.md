@@ -1,5 +1,11 @@
 # bitcoin-cli
-_bitcoin-cli is a free and open-source discord bot for bitcoin related commands_
+<p align="center">
+  <img src="https://github.com/marejak023/bitcoin-cli/blob/main/logo.png">
+</p>
+
+<p align="center">
+  <i>bitcoin-cli is a easy-to-use, free and open-source discord bot for bitcoin related commands</i>
+</p>
 
 ## How to use
 If you want to call an command, just use the prefix ```btc-cli!``` + ```command```, f.e. ```btc-cli! getdifficulty```. Simple as that!
