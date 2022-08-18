@@ -140,13 +140,6 @@ async def avgtxnumber(ctx):
     print(request.content)
     await ctx.send(request.content)
 
-# Texting command
-@client.command()
-@commands.cooldown(RATELIMIT, PER_SECONDS, commands.BucketType.default)
-async def test(ctx):
-
-    await ctx.send("test")
-
 # Displaying time of commands cooldown
 @client.event
 async def on_command_error(ctx, error):
