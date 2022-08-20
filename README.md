@@ -18,6 +18,7 @@ avgtxsize, avgtxvalue, interval, eta, avgtxnumber
 ## TODO list
 - [ ] Create/find someone with server/computer/RPi, where is downloaded Bitcoin Core, for being able to call commands (due to using the https://www.blockchain.com/api/q 
 API, there is a GLOBAL 10 seconds cooldown). This is currently most important thing of the project since it is the biggest issue
+- [ ] When calling commands, they are printed with unnecessary part, f.e. when calling ```btc-cli! getdifficulty```, the printed string is ```b'2.8351606743493E13'```. The b'' needs to be cutted out
 - [ ] Add command for searching on the bitcoin wiki (https://en.bitcoin.it/wiki/Main_Page)
 - [ ] Create a website
 - [ ] Make new design
